@@ -1,0 +1,47 @@
+body {
+  background-color: white;
+  font-family:georgia,garamond,serif;font-size:16px";
+}
+        
+A:link { COLOR: red; TEXT-DECORATION: none; font-weight: normal }
+A:visited { COLOR: purple; TEXT-DECORATION: none; font-weight: normal }
+A:active { COLOR: red; TEXT-DECORATION: none }
+A:hover { COLOR: blue; TEXT-DECORATION: none; font-weight: none }
+
+
+ 
+.hover_img a { position:relative; }
+.hover_img a span { position:absolute; display:none; z-index:99; }
+.hover_img a:hover span { display:block; }
+
+
+html { font-size: 22px; }
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container2 img {
+     position: absolute;
+     z-index: 0;
+      left: 600px;
+}
+
+
+         header {
+           background-color: saddlebrown;
+           height:400px;
+         }
+
+h1 {
+    color: brown
+}
+
+
+h3 {
+    color: darkblue
+}
+
+img:hover{
+    opacity:0.5;
+}
